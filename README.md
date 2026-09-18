@@ -13,7 +13,7 @@ The site includes Supabase email/password authentication. To enable real private
 1. Create a Supabase project.
 2. Copy `auth-config.example.js` to `auth-config.js`.
 3. Add the project URL and public anon key from Supabase Project Settings > API.
-4. Load `auth-config.js` before `auth.js` in `index.html`.
+4. Keep `auth-config.js` local; it is excluded from Git by `.gitignore`.
 
 Never commit passwords, service-role keys, or other secrets. Until configured, the site uses a local demo workspace.
 
